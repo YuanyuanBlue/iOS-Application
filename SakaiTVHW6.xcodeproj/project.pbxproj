@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4386486A2115BFB700825F95 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 438648692115BFB700825F95 /* Default-568h@2x.png */; };
+		870821D11F1B9FD7002A3310 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 870821D01F1B9FD7002A3310 /* AppDelegate.swift */; };
+		870821D31F1B9FD7002A3310 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 870821D21F1B9FD7002A3310 /* ViewController.swift */; };
+		870821D61F1B9FD7002A3310 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 870821D41F1B9FD7002A3310 /* Main.storyboard */; };
+		870821DB1F1B9FD7002A3310 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 870821D91F1B9FD7002A3310 /* LaunchScreen.storyboard */; };
+		870822261F1C3004002A3310 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 870822251F1C3004002A3310 /* DataModel.swift */; };
+		C50D5F192186D4D3005B1E24 /* SwimmingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50D5F182186D4D3005B1E24 /* SwimmingViewController.swift */; };
+		C50D5F1B2186D57C005B1E24 /* LandView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50D5F1A2186D57C005B1E24 /* LandView.swift */; };
+		E5F603A321853BE9000E07B6 /* bw-hiking.png in Resources */ = {isa = PBXBuildFile; fileRef = E5F603A221853BE9000E07B6 /* bw-hiking.png */; };
+		ED00E6F521604C0B00DDBF49 /* ballGame.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = ED00E6F421604C0B00DDBF49 /* ballGame.mp3 */; };
+		ED1E10F0216C731C0020CD18 /* Mystars.atlas in Resources */ = {isa = PBXBuildFile; fileRef = ED1E10EF216C731C0020CD18 /* Mystars.atlas */; };
+		ED2BD487218625F300D6F7A9 /* postBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2BD486218625F300D6F7A9 /* postBtn.swift */; };
+		ED346C1D21814530000D2F9F /* hobbyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED346C1C21814530000D2F9F /* hobbyViewController.swift */; };
+		ED346C1F2181469F000D2F9F /* clouds_toRight.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED346C1E2181469F000D2F9F /* clouds_toRight.swift */; };
+		ED346C21218146E6000D2F9F /* createClouds.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED346C20218146E6000D2F9F /* createClouds.swift */; };
+		ED8D1F71217A6B81009FCD8B /* funny.gif in Resources */ = {isa = PBXBuildFile; fileRef = ED8D1F70217A6B81009FCD8B /* funny.gif */; };
+		ED9825BD2182CE8600691047 /* DukePersonTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9825BC2182CE8600691047 /* DukePersonTableViewController.swift */; };
+		ED98D5AD215D4F7E00A35EE5 /* AnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED98D5AC215D4F7E00A35EE5 /* AnimationViewController.swift */; };
+		ED98D5AF215D57E600A35EE5 /* BallParkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED98D5AE215D57E600A35EE5 /* BallParkView.swift */; };
+		ED98D5B1215D94AC00A35EE5 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED98D5B0215D94AC00A35EE5 /* Utilities.swift */; };
+		ED98D5B3215E983000A35EE5 /* Bee.atlas in Resources */ = {isa = PBXBuildFile; fileRef = ED98D5B2215E982F00A35EE5 /* Bee.atlas */; };
+		ED98D5B6215E992900A35EE5 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED98D5B5215E992900A35EE5 /* SpriteKit.framework */; };
+		ED98D5B8215E9F9C00A35EE5 /* BallScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED98D5B7215E9F9C00A35EE5 /* BallScene.swift */; };
+		ED98D5BB215F20F300A35EE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED98D5BA215F20F300A35EE5 /* Assets.xcassets */; };
+		ED98D5BF215FDC1900A35EE5 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED98D5BE215FDC1900A35EE5 /* PageViewController.swift */; };
+		ED98D5C1216005DC00A35EE5 /* nv1.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED98D5C0216005DC00A35EE5 /* nv1.swift */; };
+		EDD2EABB214F0F080019701B /* DukePersonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD2EABA214F0F080019701B /* DukePersonTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		438648692115BFB700825F95 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		870821CD1F1B9FD7002A3310 /* SakaiTVHW6.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SakaiTVHW6.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		870821D01F1B9FD7002A3310 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		870821D21F1B9FD7002A3310 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		870821D51F1B9FD7002A3310 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		870821DA1F1B9FD7002A3310 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		870821DC1F1B9FD7002A3310 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		870821E61F1BA1B1002A3310 /* HW1.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = HW1.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		870822251F1C3004002A3310 /* DataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		C50D5F182186D4D3005B1E24 /* SwimmingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwimmingViewController.swift; sourceTree = "<group>"; };
+		C50D5F1A2186D57C005B1E24 /* LandView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandView.swift; sourceTree = "<group>"; };
+		E5F603A221853BE9000E07B6 /* bw-hiking.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bw-hiking.png"; sourceTree = "<group>"; };
+		ED00E6F421604C0B00DDBF49 /* ballGame.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ballGame.mp3; sourceTree = "<group>"; };
+		ED1E10EF216C731C0020CD18 /* Mystars.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Mystars.atlas; sourceTree = "<group>"; };
+		ED2BD486218625F300D6F7A9 /* postBtn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = postBtn.swift; sourceTree = "<group>"; };
+		ED346C1C21814530000D2F9F /* hobbyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hobbyViewController.swift; sourceTree = "<group>"; };
+		ED346C1E2181469F000D2F9F /* clouds_toRight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = clouds_toRight.swift; sourceTree = "<group>"; };
+		ED346C20218146E6000D2F9F /* createClouds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = createClouds.swift; sourceTree = "<group>"; };
+		ED8D1F70217A6B81009FCD8B /* funny.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = funny.gif; path = SakaiTVHW6/funny.gif; sourceTree = "<group>"; };
+		ED9825BC2182CE8600691047 /* DukePersonTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DukePersonTableViewController.swift; sourceTree = "<group>"; };
+		ED98D5AC215D4F7E00A35EE5 /* AnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationViewController.swift; sourceTree = "<group>"; };
+		ED98D5AE215D57E600A35EE5 /* BallParkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BallParkView.swift; sourceTree = "<group>"; };
+		ED98D5B0215D94AC00A35EE5 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		ED98D5B2215E982F00A35EE5 /* Bee.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Bee.atlas; sourceTree = "<group>"; };
+		ED98D5B5215E992900A35EE5 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		ED98D5B7215E9F9C00A35EE5 /* BallScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BallScene.swift; sourceTree = "<group>"; };
+		ED98D5B9215EF48800A35EE5 /* bat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bat.png; sourceTree = "<group>"; };
+		ED98D5BA215F20F300A35EE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED98D5BE215FDC1900A35EE5 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		ED98D5C0216005DC00A35EE5 /* nv1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nv1.swift; sourceTree = "<group>"; };
+		EDD2EABA214F0F080019701B /* DukePersonTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DukePersonTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		870821CA1F1B9FD7002A3310 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED98D5B6215E992900A35EE5 /* SpriteKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		870821C41F1B9FD7002A3310 = {
+			isa = PBXGroup;
+			children = (
+				438648692115BFB700825F95 /* Default-568h@2x.png */,
+				870821E61F1BA1B1002A3310 /* HW1.playground */,
+				870821CF1F1B9FD7002A3310 /* SakaiTVHW6 */,
+				870821CE1F1B9FD7002A3310 /* Products */,
+				ED8D1F70217A6B81009FCD8B /* funny.gif */,
+				ED98D5B4215E992800A35EE5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		870821CE1F1B9FD7002A3310 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				870821CD1F1B9FD7002A3310 /* SakaiTVHW6.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		870821CF1F1B9FD7002A3310 /* SakaiTVHW6 */ = {
+			isa = PBXGroup;
+			children = (
+				C50D5F182186D4D3005B1E24 /* SwimmingViewController.swift */,
+				E5F603A221853BE9000E07B6 /* bw-hiking.png */,
+				ED1E10EF216C731C0020CD18 /* Mystars.atlas */,
+				ED00E6F421604C0B00DDBF49 /* ballGame.mp3 */,
+				ED98D5BA215F20F300A35EE5 /* Assets.xcassets */,
+				ED98D5B2215E982F00A35EE5 /* Bee.atlas */,
+				870821D01F1B9FD7002A3310 /* AppDelegate.swift */,
+				870821D21F1B9FD7002A3310 /* ViewController.swift */,
+				870822251F1C3004002A3310 /* DataModel.swift */,
+				870821D41F1B9FD7002A3310 /* Main.storyboard */,
+				ED2BD486218625F300D6F7A9 /* postBtn.swift */,
+				ED98D5C0216005DC00A35EE5 /* nv1.swift */,
+				ED98D5BE215FDC1900A35EE5 /* PageViewController.swift */,
+				ED346C1C21814530000D2F9F /* hobbyViewController.swift */,
+				ED346C1E2181469F000D2F9F /* clouds_toRight.swift */,
+				ED346C20218146E6000D2F9F /* createClouds.swift */,
+				ED9825BC2182CE8600691047 /* DukePersonTableViewController.swift */,
+				ED98D5AC215D4F7E00A35EE5 /* AnimationViewController.swift */,
+				ED98D5AE215D57E600A35EE5 /* BallParkView.swift */,
+				ED98D5B0215D94AC00A35EE5 /* Utilities.swift */,
+				ED98D5B9215EF48800A35EE5 /* bat.png */,
+				870821D91F1B9FD7002A3310 /* LaunchScreen.storyboard */,
+				870821DC1F1B9FD7002A3310 /* Info.plist */,
+				EDD2EABA214F0F080019701B /* DukePersonTableViewCell.swift */,
+				ED98D5B7215E9F9C00A35EE5 /* BallScene.swift */,
+				C50D5F1A2186D57C005B1E24 /* LandView.swift */,
+			);
+			path = SakaiTVHW6;
+			sourceTree = "<group>";
+		};
+		ED98D5B4215E992800A35EE5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED98D5B5215E992900A35EE5 /* SpriteKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		870821CC1F1B9FD7002A3310 /* SakaiTVHW6 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 870821DF1F1B9FD7002A3310 /* Build configuration list for PBXNativeTarget "SakaiTVHW6" */;
+			buildPhases = (
+				870821C91F1B9FD7002A3310 /* Sources */,
+				870821CA1F1B9FD7002A3310 /* Frameworks */,
+				870821CB1F1B9FD7002A3310 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SakaiTVHW6;
+			productName = ECE564_F17_HOMEWORK;
+			productReference = 870821CD1F1B9FD7002A3310 /* SakaiTVHW6.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		870821C51F1B9FD7002A3310 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = ece564;
+				TargetAttributes = {
+					870821CC1F1B9FD7002A3310 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 5PT772ZG25;
+						LastSwiftMigration = 0920;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 870821C81F1B9FD7002A3310 /* Build configuration list for PBXProject "SakaiTVHW6" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 870821C41F1B9FD7002A3310;
+			productRefGroup = 870821CE1F1B9FD7002A3310 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				870821CC1F1B9FD7002A3310 /* SakaiTVHW6 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		870821CB1F1B9FD7002A3310 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				870821DB1F1B9FD7002A3310 /* LaunchScreen.storyboard in Resources */,
+				4386486A2115BFB700825F95 /* Default-568h@2x.png in Resources */,
+				E5F603A321853BE9000E07B6 /* bw-hiking.png in Resources */,
+				ED1E10F0216C731C0020CD18 /* Mystars.atlas in Resources */,
+				ED98D5B3215E983000A35EE5 /* Bee.atlas in Resources */,
+				ED8D1F71217A6B81009FCD8B /* funny.gif in Resources */,
+				ED98D5BB215F20F300A35EE5 /* Assets.xcassets in Resources */,
+				870821D61F1B9FD7002A3310 /* Main.storyboard in Resources */,
+				ED00E6F521604C0B00DDBF49 /* ballGame.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		870821C91F1B9FD7002A3310 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				870821D31F1B9FD7002A3310 /* ViewController.swift in Sources */,
+				C50D5F192186D4D3005B1E24 /* SwimmingViewController.swift in Sources */,
+				ED346C21218146E6000D2F9F /* createClouds.swift in Sources */,
+				ED98D5BF215FDC1900A35EE5 /* PageViewController.swift in Sources */,
+				870821D11F1B9FD7002A3310 /* AppDelegate.swift in Sources */,
+				ED98D5AF215D57E600A35EE5 /* BallParkView.swift in Sources */,
+				ED98D5B8215E9F9C00A35EE5 /* BallScene.swift in Sources */,
+				ED98D5AD215D4F7E00A35EE5 /* AnimationViewController.swift in Sources */,
+				ED346C1F2181469F000D2F9F /* clouds_toRight.swift in Sources */,
+				C50D5F1B2186D57C005B1E24 /* LandView.swift in Sources */,
+				ED98D5C1216005DC00A35EE5 /* nv1.swift in Sources */,
+				870822261F1C3004002A3310 /* DataModel.swift in Sources */,
+				ED98D5B1215D94AC00A35EE5 /* Utilities.swift in Sources */,
+				ED9825BD2182CE8600691047 /* DukePersonTableViewController.swift in Sources */,
+				EDD2EABB214F0F080019701B /* DukePersonTableViewCell.swift in Sources */,
+				ED2BD487218625F300D6F7A9 /* postBtn.swift in Sources */,
+				ED346C1D21814530000D2F9F /* hobbyViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		870821D41F1B9FD7002A3310 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				870821D51F1B9FD7002A3310 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		870821D91F1B9FD7002A3310 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				870821DA1F1B9FD7002A3310 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		870821DD1F1B9FD7002A3310 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				"Texture Atlas Maximum Size" = 4096x4096;
+			};
+			name = Debug;
+		};
+		870821DE1F1B9FD7002A3310 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				"Texture Atlas Maximum Size" = 4096x4096;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		870821E01F1B9FD7002A3310 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5PT772ZG25;
+				"Enable Warnings" = Yes;
+				INFOPLIST_FILE = SakaiTVHW6/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.duke.ECE564.homework;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
+				"Texture Atlas Maximum Size" = 4096x4096;
+			};
+			name = Debug;
+		};
+		870821E11F1B9FD7002A3310 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5PT772ZG25;
+				"Enable Warnings" = Yes;
+				INFOPLIST_FILE = SakaiTVHW6/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.duke.ECE564.homework;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
+				"Texture Atlas Maximum Size" = 4096x4096;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		870821C81F1B9FD7002A3310 /* Build configuration list for PBXProject "SakaiTVHW6" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				870821DD1F1B9FD7002A3310 /* Debug */,
+				870821DE1F1B9FD7002A3310 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		870821DF1F1B9FD7002A3310 /* Build configuration list for PBXNativeTarget "SakaiTVHW6" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				870821E01F1B9FD7002A3310 /* Debug */,
+				870821E11F1B9FD7002A3310 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 870821C51F1B9FD7002A3310 /* Project object */;
+}
